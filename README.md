@@ -7,11 +7,13 @@ The code does not have any comments, because it was meant for me to track my Run
 
 There is no installation, and usage is as simple as it gets.
 
-1. Download the jar file(or compile the source yourself), and run it
+Installation:
 
-2. Type what number you want the counter to start from
+- Download the jar file(or compile the source yourself), and run it.
 
-3. A little number appears at the top of your screen, and unfortunately is not moveable
+- Type what number you want the counter to start from.
+
+- A little number appears at the top of your screen, and unfortunately is not moveable.
 
 Usage:
 
