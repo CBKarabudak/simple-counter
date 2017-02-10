@@ -46,6 +46,7 @@ public class Main {
 	   startButton.addActionListener(startCounter);
 	   inputPanel.add(tallyNum);
 	   inputPanel.add(startButton);
+	   inputFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	   inputFrame.add(inputPanel);
 	   inputFrame.setVisible(true);
 	   
@@ -97,18 +98,12 @@ public class Main {
    }
    
    public static void resizeFrame(JLabel label, JFrame frame) {
+
+	   // Set the label's font size to the newly determined size.
+	   label.setFont(new Font("Arial", Font.PLAIN, 40));
 	   
-	   String curTally = label.getText();
-	   int length = (curTally.length() * 22);
-	   
-	   if (curTally.length() == 1)
-	   {label.setFont(new Font("Arial", Font.BOLD, 28)); 
-	   length = 32; }
-	   
-	   
-	   frame.setSize(length, length);
-	   
-	   label.setFont(new Font("Arial", Font.BOLD, 40));
+	   frame.setSize(label.getPreferredSize());
+	   label.setSize(label.getPreferredSize());
 	   
    }
    
