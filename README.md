@@ -13,7 +13,7 @@ Installation:
 
 - Type what number you want the counter to start from.
 
-- A little number appears at the top of your screen, and unfortunately is not moveable.
+- A little number appears at the top of your screen.
 
 Usage:
 
