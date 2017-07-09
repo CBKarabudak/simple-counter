@@ -10,7 +10,7 @@ Usage:
 
 - Type what number you want the counter to start from.
 
-- A little number appears at the top of your screen.
+- A little number appears at the top of your screen. The counter will display on top of any other window on your computer.
 
     - Left click to increase the counter by one.
 
